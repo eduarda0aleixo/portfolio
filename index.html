@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <meta name="author" content="Eduarda Aleixo">
+    <meta 
+        name="description"
+        content="Portfólio de Eduarda Aleixo - Desenvolvedora Full Stack. 
+        Especializada em HTML, CSS, JavaScript, APIs e integrações back-end. 
+        Projetos completos do zero à nuvem."
+    >
+    <meta name="robots" content="index, follow">
+
+    <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg">
+
+    <title>Eduarda Aleixo | Portfólio Full Stack</title>
+</head>
+<body>
+    <header>
+    <div class="menu-content">
+
+        <!-- TÍTULO -->
+        <a href="index.html" id="titulo">Portfólio</a>
+
+        <!-- MENU -->
+        <nav>
+            <ul class="menu-list">
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <!-- Seção Principal da Página (main) -->
+    <main>
+        <!-- Seção de Boas vindas -->
+        <section id="hero" class="section-container hero-container">
+            <article class="hero-content">
+                <h1>Olá, eu sou a Eduarda Aleixo</h1>
+                <h2>Desenvolvedora Full Stack</h2>
+                <p> Apaixonada por criar soluções inovadoras e eficientes. 
+                    Com experiência em HTML, CSS, JavaScript, APIs e integrações back-end, 
+                    estou sempre pronta para enfrentar novos desafios e transformar ideias em realidade.</p>
+
+                <div class="buttons-container">
+                <a href="#contact" class="botao">Entre em Contato</a>
+                <a href="#about" class="botao-outline">Saiba Mais...</a>
+                </div>
+            </article>
+
+            <figure class="hero-image">
+            <img src="./assets/img/foto_dev_woman.svg" alt="Foto da autora." class="float-animation">
+            </figure>
+        </section>
+    </main>
+
+        <!-- Apresentação -->
+        <section id="about">
+
+            <img src="assets/img/foto_dev_woman.svg" alt="Foto de Eduarda Aleixo" width="200">
+            <h2><i class="fa-solid fa-hand-sparkles"></i> Olá, eu sou a Eduarda!</h2>
+            <p>
+                Sou estudante de <strong>Desenvolvimento de Software Multiplataforma</strong> pela <strong>FATEC Cotia</strong> 
+                e participante do programa <strong>Generation Brasil</strong>. Tenho foco em desenvolvimento Full Stack 
+                e busco criar soluções completas — do front-end bonito e funcional ao back-end robusto e eficiente.
+            </p>
+            <p>
+                Em busca da minha primeira oportunidade como 
+                <strong>Desenvolvedora Full Stack Júnior</strong>.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Habilidades -->
+        <section id="habilidades">
+            <h2><i class="fa-solid fa-code"></i> Habilidades técnicas</h2>
+            <ul>
+                <li><i class="fa-brands fa-html5"></i> HTML5, CSS3</li>
+                <li><i class="fa-brands fa-js"></i> JavaScript, TypeScript</li>
+                <li><i class="fa-brands fa-java"></i> Java</li>
+                <li><i class="fa-brands fa-python"></i> Python</li>
+                <li><i class="fa-solid fa-database"></i> MySQL, MongoDB</li>
+                <li><i class="fa-brands fa-node-js"></i> Node.js, NestJs</li>
+                <li><i class="fa-brands fa-git-alt"></i> Git, <i class="fa-brands fa-github"></i> GitHub, VS Code</li>
+                <li><i class="fa-solid fa-lightbulb"></i> Lógica de Programação, POO</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Educação -->
+        <section id="educacao">
+            <h2><i class="fa-solid fa-graduation-cap"></i> Educação</h2>
+            <ul>
+                <li>
+                    <strong>Desenvolvimento de Software Multiplataforma</strong> — FATEC Cotia
+                    <br><small>Fev/2025 – Dez/2027</small>
+                </li>
+                <li>
+                    <strong>Bootcamp Desenvolvedora Full Stack</strong> — Generation Brasil
+                    <br><small>Fev/2026 – Mai/2026</small>
+                </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Idiomas -->
+        <section id="idiomas">
+            <h2><i class="fa-solid fa-language"></i> Idiomas</h2>
+            <ul>
+                <li>Português — Nativo</li>
+                <li>Inglês — Intermediário</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        </section>
+
+        <!-- Seção Projetos do autor -->
+        <section id="projects" class="section-container projects-container">
+            <h2>Meus Projetos</h2>
+
+            <!-- Swiper Container -->
+            <div class="swiper project-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <article class="project-card">
+                            <figure class="project-image">
+                                <img src="./assets/icons/languages/github.svg" alt="Ícone GitHub">
+                            </figure>
+
+                            <div class="project-content">
+                                <h3>Projeto Github</h3>
+                                <p>Projeto Desenvolvido no GitHub</p>
+                            </div>
+
+                            <div class="project-tags">
+                                <span class="tag">GitHub</span>
+                            </div>
+
+                            <div class="project-buttons">
+                                <a href="#" target="_blank" class="botao botao-sm">GitHub</a>
+                                <a href="#" target="_blank" class="botao-outline botao-sm">Deploy</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Botões de navegação -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+                <!-- Paginação -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        </section>
+
+        <!-- Seção Formulário de Contato e Redes Sociais -->
+        <section id="contact" class="section-container contact-container">
+
+            <!-- REDES SOCIAIS -->
+            <article class="contact-info">
+                <h2>Entre em Contato</h2>
+                <p>Sinta-se à vontade para entrar em contato comigo!</p>
+
+                <div class="social-container">
+                    <a href="https://www.linkedin.com/in/eduarda-aleixo/" target="_blank"><img src="./assets/icons/social/linkedin.svg" alt="Link para o LinkedIn"></a>
+                    <a href="https://github.com/eduarda0aleixo" target="_blank"><img src="./assets/icons/social/github.svg" alt="Link para o GitHub"></a>
+                    <a href="#" target="_blank"><img src="./assets/icons/social/instagram.svg" alt="Link para o Instagram"></a>
+                </div>
+            </article>
+
+            <!-- FORMULÁRIO -->
+            <form id="formulario" action="https://formsubmit.co/eduarda.aleixo07@gmail.com" method="POST">
+
+                <label for="nome">Nome</label>
+                <input id="nome" name="nome" type="text" placeholder="Digite o seu nome completo" required>
+                <span id="erro-nome"></span>
+
+                <label for="email">E-mail</label>
+                <input id="email" name="email" type="email" placeholder="Digite o seu e-mail" required>
+                <span id="erro-email"></span>
+
+                <label for="assunto">Assunto</label>
+                <input id="assunto" name="assunto" type="text" placeholder="Digite o assunto da mensagem" required>
+                <span id="erro-assunto"></span>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem aqui..." required></textarea>
+                <span id="erro-mensagem"></span>
+
+                <!-- Campos ocultos do FormSubmit -->
+                <input type="hidden" name="_subject" value="Novo contato do Portfólio - Eduarda Aleixo">
+                <input type="hidden" name="_next" value="https://eduarda0aleixo.github.io/portfolio/success.html">
+                <input type="hidden" name="_captcha" value="false">
+
+                <button class="botao" type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Eduarda Aleixo. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

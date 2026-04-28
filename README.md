@@ -7,17 +7,19 @@
   <img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3&logoColor=blue" alt="CSS Badge" /> 
   <img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript&logoColor=yellow" alt="JavaScript Badge" /> 
   <img src="https://img.shields.io/badge/GitHub%20API-181717?style=for-the-badge&logo=github" alt="GitHub API Badge" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js Badge" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React Badge" />
 </div>
 
 <br />
 
-> **"Código que conversa, design que acolhe."**  
+> **"Código que conversa, design que acolhe, back-end que sustenta."**  
 > — Esse é meu jeito de desenvolver.
 
-Bem-vindo(a) ao meu **portfólio pessoal**! 💻  
-Aqui você encontra não apenas projetos técnicos, mas um pouco da minha jornada como desenvolvedora front-end. Este site foi construído com **HTML, CSS e JavaScript**, pensado para ser **moderno, responsivo e dinâmico** — assim como meu aprendizado.
+Bem-vindo(a) ao meu **portfólio pessoal**!   
+Aqui você encontra não apenas projetos técnicos, mas um pouco da minha jornada como **Desenvolvedora Full Stack**. Este site foi construído com **HTML, CSS e JavaScript**, pensado para ser **moderno, responsivo e dinâmico** — assim como meu aprendizado.
 
-Uma das características que mais curti desenvolver foi a **integração com a API do GitHub**, que puxa automaticamente meus repositórios mais recentes. Assim, quem visita meu portfólio sempre vê meus projetos atualizados, sem que eu precise mexer no código toda vez. 
+Uma das características que mais curti desenvolver foi a **integração com a API do GitHub**, que puxa automaticamente meus repositórios mais recentes. Assim, quem visita meu portfólio sempre vê meus projetos atualizados, sem que eu precise mexer no código toda vez. E como boa full stack, gosto de pensar na aplicação como um todo — do front-end bonito e funcional ao back-end que faz tudo funcionar nos bastidores. 
 
 ---
 
@@ -26,13 +28,13 @@ Uma das características que mais curti desenvolver foi a **integração com a A
 Criei este portfólio com o objetivo de:
 
 - Apresentar minha trajetória e habilidades de forma clara e acolhedora
-- Mostrar projetos reais que desenvolvi durante meus estudos
+- Mostrar projetos reais que desenvolvi durante meus estudos (full stack!)
 - Oferecer uma forma fácil e intuitiva de contato
-- Praticar conceitos como **consumo de APIs**, **responsividade** e **acessibilidade**
+- Praticar conceitos como **consumo de APIs**, **responsividade**, **acessibilidade** e boas práticas de desenvolvimento
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 - **Layout responsivo** — funciona bem em desktop, tablet e mobile  
 - **Integração com a API do GitHub** — perfil e repositórios carregados dinamicamente  
@@ -44,6 +46,7 @@ Criei este portfólio com o objetivo de:
 ---
 
 ## Estrutura do Projeto
+
 
 ```
 portfolio/
