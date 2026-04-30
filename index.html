@@ -24,6 +24,8 @@
 
     <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <title>Eduarda Aleixo | Portfólio Full Stack</title>
@@ -70,70 +72,84 @@
         </section>
     </main>
 
-        <!-- Apresentação -->
-        <section id="about">
+<!-- Seção Sobre Mim -->
+<section id="about" class="section-container about-container">
+    <div class="about-image">
+        <img src="assets/img/foto_dev_woman.svg" alt="Foto de Eduarda Aleixo">
+    </div>
+    
+    <div class="about-content">
+        <h2>Sobre mim</h2>
+        <p>
+            Olá, eu sou a Eduarda! Sou estudante de <strong>Desenvolvimento de Software Multiplataforma</strong> 
+            pela <strong>FATEC Cotia</strong> e participante do programa <strong>Generation Brasil</strong>. 
+            Tenho foco em desenvolvimento Full Stack e busco criar soluções completas — do front-end bonito 
+            e funcional ao back-end robusto e eficiente.
+        </p>
+        <p>
+            Em busca da minha primeira oportunidade como <strong>Desenvolvedora Full Stack Júnior</strong>.
+        </p>
+        
+        <div class="about-buttons-data">
+            <div class="buttons">
+                <a href="#" class="botao">GitHub</a>
+                <a href="#" class="botao-outline">Currículo</a>
+            </div>
+            <div class="data-container">
+                <div class="data-item">
+                    <span class="data-number">100</span>
+                    <span class="data-label">Seguidores</span>
+                </div>
+                <div class="data-item">
+                    <span class="data-number">10</span>
+                    <span class="data-label">Repositórios</span>
+                </div>
+            </div>
+        </div>
 
-            <img src="assets/img/foto_dev_woman.svg" alt="Foto de Eduarda Aleixo" width="200">
-            <h2><i class="fa-solid fa-hand-sparkles"></i> Olá, eu sou a Eduarda!</h2>
-            <p>
-                Sou estudante de <strong>Desenvolvimento de Software Multiplataforma</strong> pela <strong>FATEC Cotia</strong> 
-                e participante do programa <strong>Generation Brasil</strong>. Tenho foco em desenvolvimento Full Stack 
-                e busco criar soluções completas — do front-end bonito e funcional ao back-end robusto e eficiente.
-            </p>
-            <p>
-                Em busca da minha primeira oportunidade como 
-                <strong>Desenvolvedora Full Stack Júnior</strong>.
-            </p>
-        </section>
+        <!-- Habilidades, Educação e Idiomas integrados -->
+        <div class="about-more-info">
+            <!-- Habilidades -->
+            <div class="info-block">
+                <h3><i class="fa-solid fa-code"></i> Habilidades técnicas</h3>
+                <ul class="info-list">
+                    <li>HTML5, CSS3</li>
+                    <li>JavaScript, TypeScript</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>MySQL, MongoDB</li>
+                    <li>Node.js, NestJs</li>
+                    <li>Git, GitHub, VS Code</li>
+                    <li>Lógica de Programação, POO</li>
+                </ul>
+            </div>
 
-        <hr>
+            <!-- Educação -->
+            <div class="info-block">
+                <h3><i class="fa-solid fa-graduation-cap"></i> Educação</h3>
+                <ul class="info-list">
+                    <li>
+                        <strong>Desenvolvimento de Software Multiplataforma</strong> — FATEC Cotia
+                        <br><small>Fev/2025 – Dez/2027</small>
+                    </li>
+                    <li>
+                        <strong>Bootcamp Desenvolvedora Full Stack</strong> — Generation Brasil
+                        <br><small>Fev/2026 – Mai/2026</small>
+                    </li>
+                </ul>
+            </div>
 
-        <!-- Habilidades -->
-        <section id="habilidades">
-            <h2><i class="fa-solid fa-code"></i> Habilidades técnicas</h2>
-            <ul>
-                <li><i class="fa-brands fa-html5"></i> HTML5, CSS3</li>
-                <li><i class="fa-brands fa-js"></i> JavaScript, TypeScript</li>
-                <li><i class="fa-brands fa-java"></i> Java</li>
-                <li><i class="fa-brands fa-python"></i> Python</li>
-                <li><i class="fa-solid fa-database"></i> MySQL, MongoDB</li>
-                <li><i class="fa-brands fa-node-js"></i> Node.js, NestJs</li>
-                <li><i class="fa-brands fa-git-alt"></i> Git, <i class="fa-brands fa-github"></i> GitHub, VS Code</li>
-                <li><i class="fa-solid fa-lightbulb"></i> Lógica de Programação, POO</li>
-            </ul>
-        </section>
-
-        <hr>
-
-        <!-- Educação -->
-        <section id="educacao">
-            <h2><i class="fa-solid fa-graduation-cap"></i> Educação</h2>
-            <ul>
-                <li>
-                    <strong>Desenvolvimento de Software Multiplataforma</strong> — FATEC Cotia
-                    <br><small>Fev/2025 – Dez/2027</small>
-                </li>
-                <li>
-                    <strong>Bootcamp Desenvolvedora Full Stack</strong> — Generation Brasil
-                    <br><small>Fev/2026 – Mai/2026</small>
-                </li>
-            </ul>
-        </section>
-
-        <hr>
-
-        <!-- Idiomas -->
-        <section id="idiomas">
-            <h2><i class="fa-solid fa-language"></i> Idiomas</h2>
-            <ul>
-                <li>Português — Nativo</li>
-                <li>Inglês — Intermediário</li>
-            </ul>
-        </section>
-
-        <hr>
-
-        </section>
+            <!-- Idiomas -->
+            <div class="info-block">
+                <h3><i class="fa-solid fa-language"></i> Idiomas</h3>
+                <ul class="info-list">
+                    <li>Português — Nativo</li>
+                    <li>Inglês — Intermediário</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
 
         <!-- Seção Projetos do autor -->
         <section id="projects" class="section-container projects-container">
