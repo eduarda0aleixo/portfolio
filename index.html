@@ -82,27 +82,6 @@
             <!-- Swiper Container -->
             <div class="swiper project-swiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <article class="project-card">
-                            <figure class="project-image">
-                                <img src="./assets/icons/languages/github.svg" alt="Ícone GitHub">
-                            </figure>
-
-                            <div class="project-content">
-                                <h3>Projeto Github</h3>
-                                <p>Projeto Desenvolvido no GitHub</p>
-                            </div>
-
-                            <div class="project-tags">
-                                <span class="tag">GitHub</span>
-                            </div>
-
-                            <div class="project-buttons">
-                                <a href="#" target="_blank" class="botao botao-sm">GitHub</a>
-                                <a href="#" target="_blank" class="botao-outline botao-sm">Deploy</a>
-                            </div>
-                        </article>
-                    </div>
                 </div>
 
                 <!-- Botões de navegação -->
@@ -132,39 +111,41 @@
             </article>
 
             <!-- FORMULÁRIO -->
-            <form id="formulario" action="https://formsubmit.co/eduarda.aleixo07@gmail.com" method="POST">
+            <form id="formulario" action="https://formsubmit.co/61a4f3443f755fe43f873c48329b65ac" method="POST" novalidate>
 
-                <label for="nome">Nome</label>
-                <input id="nome" name="nome" type="text" placeholder="Digite o seu nome completo" required>
-                <span id="erro-nome"></span>
+            <input type="hidden" name="_subject" value="Novo contato do Portfólio - Eduarda Aleixo">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/success.html">
+            <input type="hidden" name="_captcha" value="false">
 
-                <label for="email">E-mail</label>
-                <input id="email" name="email" type="email" placeholder="Digite o seu e-mail" required>
-                <span id="erro-email"></span>
+            <label for="nome">Nome</label>
+            <input id="nome" name="nome" type="text" placeholder="Digite o seu nome completo">
+            <span id="erro-nome"></span>
 
-                <label for="assunto">Assunto</label>
-                <input id="assunto" name="assunto" type="text" placeholder="Digite o assunto da mensagem" required>
-                <span id="erro-assunto"></span>
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" placeholder="Digite o seu e-mail">
+            <span id="erro-email"></span>
 
-                <label for="mensagem">Mensagem</label>
-                <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem aqui..." required></textarea>
-                <span id="erro-mensagem"></span>
+            <label for="assunto">Assunto</label>
+            <input id="assunto" name="assunto" type="text" placeholder="Digite o assunto da mensagem">
+            <span id="erro-assunto"></span>
 
-                <!-- Campos ocultos do FormSubmit -->
-                <input type="hidden" name="_subject" value="Novo contato do Portfólio - Eduarda Aleixo">
-                <input type="hidden" name="_next" value="https://eduarda0aleixo.github.io/portfolio/success.html">
-                <input type="hidden" name="_captcha" value="false">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem aqui..."></textarea>
+            <span id="erro-mensagem"></span>
 
-                <button class="botao" type="submit">Enviar Mensagem</button>
-            </form>
-        </section>
+            <button class="botao" type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
     </main>
 
     <footer>
         <p>&copy; 2026 Eduarda Aleixo. Todos os direitos reservados.</p>
     </footer>
 
-        <!-- Script JavaScript-->
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Script JavaScript-->
     <script src="assets/js/script.js"></script>
 
 </body>

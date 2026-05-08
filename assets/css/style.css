@@ -694,3 +694,17 @@ footer {
     brightness(101%)
     contrast(96%);
 }
+
+/* Mensagens de erro */
+form span {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    color: var(--error);
+}
+
+/* Campos com erro (opcional - borda vermelha) */
+form input.error, 
+form textarea.error {
+    border-color: var(--error);
+}
